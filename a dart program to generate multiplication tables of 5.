@@ -1,0 +1,7 @@
+void main() {
+ int number = 5;
+ int limit = 10;
+ for (int i = 1; i <= limit; i++) {
+ print('$number x $i = ${number * i}');
+ }
+}
