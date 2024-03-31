@@ -1,0 +1,6 @@
+void main() {
+ String text = ' Hello World ';
+ String trimmedText = text.replaceAll(' ', '');
+ print('Original string: $text');
+ print('String after removing whitespace: $trimmedText');
+}
