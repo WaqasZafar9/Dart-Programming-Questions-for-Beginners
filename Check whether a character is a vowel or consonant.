@@ -1,0 +1,10 @@
+void main() {
+ String character = 'v';
+ character = character.toLowerCase();
+ if (character == 'a' || character == 'e' || character == 'i' || character 
+== 'o' || character == 'u') {
+ print('$character is a vowel.');
+ } else {
+ print('$character is a consonant.');
+ }
+}
