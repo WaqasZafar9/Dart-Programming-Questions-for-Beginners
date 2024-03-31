@@ -1,0 +1,13 @@
+"Suppose, you often go to restaurant with friends and you have to split amount of bill"
+Formula= (total billamount) / number of people
+
+------------------------------------------------------------------------------------------------
+
+void main() {
+ double totalBill = 100.0;
+ int numberOfPeople = 4;
+ double splitAmount = totalBill / numberOfPeople;
+ print('Total bill amount: $totalBill');
+ print('Number of people: $numberOfPeople');
+ print('Split amount per person: $splitAmount');
+}
