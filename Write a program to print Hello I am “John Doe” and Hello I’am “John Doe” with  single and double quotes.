@@ -1,0 +1,5 @@
+void main() {
+ // Using double quotes with escape character for single quote
+ print('Hello I am "waqas zafar"');
+ // Using single quotes with escape character for single quote
+ print('Hello I\'am "waqas zafar"');}
