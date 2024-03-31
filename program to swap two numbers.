@@ -1,0 +1,13 @@
+import 'dart:io';
+void main() {
+ print('Enter the first number: ');
+ int firstNumber = int.parse(stdin.readLineSync()!);
+ print('Enter the second number: ');
+ int secondNumber = int.parse(stdin.readLineSync()!);
+ int temp = firstNumber;
+ firstNumber = secondNumber;
+ secondNumber = temp;
+ print('After swapping:');
+ print('First number: $firstNumber');
+ print('Second number: $secondNumber');
+}
