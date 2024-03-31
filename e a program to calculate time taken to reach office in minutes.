@@ -1,0 +1,16 @@
+.Suppose, your distance to office from home is 25 km and you travel 40 km per hour
+
+Formula= (distance) / (speed).
+
+____________________________________________________________________________________________
+
+void main() {
+ double distance = 25.0;
+ double speed = 40.0;
+ double timeHours = distance / speed;
+ double timeMinutes = timeHours * 60; 
+ print('Distance to office: $distance km');
+ print('Speed: $speed km/h');
+ print('Time taken to reach office: ${timeMinutes.toStringAsFixed(2)}
+minutes');
+}
